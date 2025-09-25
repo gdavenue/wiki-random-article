@@ -4,7 +4,7 @@
   --color-accent-light: #fcf154;
   --color-text: #fff;
   --color-error: #ff6b6b;
-  --color-bg-dark: #444;
+  --color-bg-dark: #121212;
 
   --radius-sm: 6px;
   --radius-md: 12px;
@@ -69,7 +69,7 @@ body {
 .article {
   max-width: 640px;
   width: 100%;
-  margin: 0 1.25rem 1.25rem;
+  margin: 0 1.25rem 2.3rem;
   padding: 1.25rem;
   background: var(--color-overlay);
   border-radius: var(--radius-lg);
@@ -93,7 +93,7 @@ body {
 }
 
 .button {
-  padding: 1rem 2rem;
+  padding: 0.8rem 1.4rem;
   border: none;
   border-radius: var(--radius-full);
   font-size: 1.2rem;
@@ -154,7 +154,7 @@ body {
 
 @media (max-width: 480px) {
   .article {
-    margin: 0 0.75rem 1.25rem;
+    margin: 0 0.75rem 1.8rem;
     border-radius: var(--radius-md);
   }
 }
